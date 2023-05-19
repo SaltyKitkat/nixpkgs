@@ -11756,6 +11756,8 @@ self: super: with self; {
 
   tahoma-api = callPackage ../development/python-modules/tahoma-api { };
 
+  taichi = callPackage ../development/python-modules/taichi { };
+
   tailer = callPackage ../development/python-modules/tailer { };
 
   tailscale = callPackage ../development/python-modules/tailscale { };
